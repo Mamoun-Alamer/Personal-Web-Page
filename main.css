@@ -1,0 +1,217 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;    
+    scroll-behavior: smooth;
+    
+}
+
+::-webkit-scrollbar {
+    width:12px ;
+    background-color: #000;
+    margin:0px;
+}
+::-webkit-scrollbar-thumb {
+    background:linear-gradient(transparent, #1616e4) ;
+    border-radius:6px ;
+}
+::-webkit-scrollbar-thumb:hover {
+    background:linear-gradient(transparent, #000) ;
+   
+}
+ header {
+    background-color:#000;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    padding: 10px 200px 10px 100px;
+    z-index: 999;
+    align-items: center;
+ }
+
+ header .title-head {
+    font-size: 1.5em;
+    font-weight:700;
+    color: #1616e4;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.5s ease;
+    
+ }
+.title-head:hover{
+    transform: scale(1.1);
+    color:#0099ff;
+}
+
+.navigation a{
+    font-size: 1.1em;
+    font-weight:500;
+    color:#1616e4;
+ 
+    text-decoration:none;
+    margin:2px;   
+    transition: 0.5s ease;
+}
+.navigation a:hover{
+    transform: scale(1.1) ;
+    color:#0099ff;
+}
+
+section {
+
+    padding:100px 200px;
+}
+
+#main {
+    width:100%;
+    display: flex;
+    align-items: center;
+    min-height:100vh;
+    background:url(imgs/img1.jpg) no-repeat;
+    background-size:cover;
+    background-position:center ;
+    background-attachment: fixed;
+    letter-spacing: 1px;
+  
+}
+
+#main h2  {
+   display: inline-block;
+
+   font-size: 2.3em;
+   font-weight:500;
+   color:#000;
+
+}
+
+#main h2 span  {
+    font-size: 3em;
+    font-weight:700; 
+    color:#1616e4;
+    -webkit-text-stroke: 1px #000; 
+    letter-spacing: 1px;
+
+ }
+
+
+#main h3  {
+    /*background:url(https://t3.ftcdn.net/jpg/05/77/15/42/360_F_577154228_0IYhXHBvV0MoaSIgKHNKvg3gXrFPy6k8.jpg) no-repeat;*/
+    font-size: 1.4em;
+    font-weight:600;
+    color:#000;
+    margin-bottom:10px ;
+
+ }
+
+#main .resume-btn {
+    color:black;
+    background-color:#1616e4;
+    text-decoration: none;
+    font-size :1.1em;
+    font-weight:600 ;
+    letter-spacing: 2px;
+    display: inline-block;
+    /*padding:0.9375em 2.1875em;*/
+    padding: 25px 75px;
+    border:2px solid black;
+    border-radius:10px ;
+    margin-bottom:5px ;
+    transition: 0.7s ease;
+}
+#main .resume-btn:hover{
+    transform:scale(1.1) ;
+    color:antiquewhite;
+    background-color:#0099ff;
+}
+.social-icons a {
+    color:#1616e4;
+}
+.social-icons a:hover {
+    color:#0099ff;
+}
+
+
+#Services {
+    background-color:#1616e4;
+}
+
+.title {
+    display:flex;
+    justify-content:center;
+    color:#fff;
+    font-size:2em;
+    font-weight:600 ;
+    margin-bottom:30px ;
+    letter-spacing:2px;
+}
+.content {
+    display:flex ;
+    flex-wrap:wrap;
+    justify-content:center;
+    flex-direction:row;
+    flex-wrap: wrap;
+    padding:5px;
+   
+    
+}
+
+.card {
+    background-color:#000 ;
+    width:21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /25%) ;
+    border:2px solid white;
+    border-radius:10px ;
+    margin:15px;
+    transition: 0.7s ease;
+}
+.card:hover {
+    transform:scale(1.1) ;
+}
+.card .info {
+    color:#fff;
+    margin: 0px 10px 10px 10px;
+}
+
+.icon {
+    display:flex ;
+    justify-content:center;
+    color:#fff;
+    font-size:5em;
+    padding:5px;
+    margin:15px;
+}
+
+.icon a {
+    color:#fff;
+    text-decoration:none;
+} 
+.icon a:hover { 
+    color:#1616e4;  
+}
+
+
+#Projects {
+    background-color:#000 ;
+}
+
+#Contact {
+    background-color:#1616e4 ;
+}
+
+.footer {
+    width:100%;
+    padding:1.5em;
+    display: flex;
+    justify-content: space-between;
+    color:#fff;
+    background-color:#000 ;
+}
+.footer-title {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.footer-title span {
+    color:#1616e4;
+}
